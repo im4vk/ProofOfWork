@@ -1,0 +1,11 @@
+[package]
+name = "pow-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+rand = "0.8"
+hex = "0.4"
+sha256 = "1.6.0"
+
